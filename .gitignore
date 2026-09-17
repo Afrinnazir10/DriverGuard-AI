@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test/cache
+.pytest_cache/
+.mypy_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Video / camera output
+*.mp4
+*.avi
+*.mov
+
+# Generated reports
+reports/generated/
+
+# Streamlit
+.streamlit/
