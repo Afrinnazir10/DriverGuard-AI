@@ -1,22 +1,34 @@
 # 🚗 DriverGuard AI
 
-### AI-Powered Driver Drowsiness, Yawning & Distraction Detection System
+### Real-Time Driver Drowsiness, Distraction & Safety Monitoring System
 
-DriverGuard AI is a real-time computer vision system designed to monitor driver alertness and attention using a camera.
+DriverGuard AI is an AI-powered driver monitoring system designed to detect
+drowsiness, yawning, distraction, and changes in head direction in real time.
+The system provides a safety score and alerts passengers when unsafe driving
+conditions are detected.
 
-The system analyzes facial landmarks to detect signs of:
+## 📸 Dashboard Preview
 
-- 😴 Driver drowsiness
-- 🥱 Yawning
-- 👀 Visual distraction
-- ↔️ Head direction
-- ⚠️ Unsafe driving conditions
+<p align="center">
+  <img src="screenshots/dashboard1.png" alt="DriverGuard AI Dashboard" width="900">
+  <img src="screenshots/dashboard2.png" alt="DriverGuard AI Dashboard" width="900">
+</p>
+
+## ✨ Features
+
+- 👁️ Real-time driver face monitoring
+- 😴 Drowsiness detection
+- 🥱 Yawning detection
+- 👀 Distraction detection
+- 🧭 Head-direction monitoring
+- 📊 Dynamic safety score
+- 🚨 Emergency assistance
+- 🌐 Interactive Streamlit dashboard
+
 
 It combines these indicators into a **Driver Safety Score** and presents the results through an interactive dashboard.
 
 ---
-
-## ✨ Features
 
 ### 🧠 Real-Time AI Monitoring
 
@@ -123,12 +135,3 @@ The current prototype uses a phone-call interface, while backend-based SMS/voice
                 ┌─────────┴─────────┐
                 ▼                   ▼
           Driver Alerts       Emergency Help
-
-## 📸 Dashboard Preview
-
-<p align="center">
-  <img src="screenshots/dashboard1.png" alt="DriverGuard AI Dashboard" width="900">
-</p>
-<p align="center">
-  <img src="screenshots/dashboard2.png" alt="DriverGuard AI Dashboard" width="900">
-</p>
